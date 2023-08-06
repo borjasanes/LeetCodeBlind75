@@ -2,8 +2,6 @@
 
 This repository contains my personal solutions to the famous "Blind 75" list of coding problems from LeetCode.
 
-The Blind 75 is a list of 75 coding problems that are frequently asked in coding interviews. The list was compiled by a software engineer who received offers from several FAANG (Facebook, Amazon, Apple, Netflix, Google) companies, and it's recommended for anyone preparing for a technical coding interview.
-
 ## Structure
 
 Each problem has its own directory which contains the problem statement, my solution and a test class.
