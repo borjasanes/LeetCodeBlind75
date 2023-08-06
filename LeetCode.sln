@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "Blind75\Blind75.csproj", "{EFD69C15-9812-4CB4-9C8E-C385B6FF34FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFD69C15-9812-4CB4-9C8E-C385B6FF34FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD69C15-9812-4CB4-9C8E-C385B6FF34FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD69C15-9812-4CB4-9C8E-C385B6FF34FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD69C15-9812-4CB4-9C8E-C385B6FF34FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
