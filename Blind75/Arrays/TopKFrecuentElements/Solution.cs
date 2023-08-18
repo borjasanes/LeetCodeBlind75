@@ -17,13 +17,22 @@ public class Solution
                 frequency[num] = 1;
             }
         }
-        var sortedList = new List<KeyValuePair<int, int>>(frequency);
-        sortedList.Sort((pair1, pair2) => pair2.Value.CompareTo(pair1.Value));
+
+        var pq = new PriorityQueue<int, int>();
+        foreach (int key in frequency.Keys)
+        {
+            pq.Enqueue(key, frequency[key]);
+
+            if (pq.Count > k)
+            {
+                pq.Dequeue();
+            }
+        }
 
         var result = new int[k];
         for (int i = 0; i < k; i++)
         {
-            result[i] = sortedList[i].Key;
+            result[i] = pq.Dequeue();
         }
 
         return result;
