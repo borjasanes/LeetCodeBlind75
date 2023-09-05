@@ -1,5 +1,7 @@
 using Blind75.Arrays.Annagrams;
 
+namespace Blind75.Arrays.Annagrams;
+
 public class Test
 {
     [Fact]
