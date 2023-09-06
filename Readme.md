@@ -1,3 +1,6 @@
+
+![BUILD](https://github.com/borjasanes/LeetCodeBlind75/actions/workflows/dotnet.yml/badge.svg)
+
 # Blind75 LeetCode Solutions
 
 This repository contains my personal solutions to the famous "Blind 75" list of coding problems from LeetCode.
